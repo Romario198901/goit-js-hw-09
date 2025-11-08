@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                
     />
   </a>
 </li>
-`}function c(o){return o.map(n).join("")}const r=c(i);e.insertAdjacentHTML("afterbegin",r);new a(".gallery-link",{captions:!0,captionSelector:"img",captionType:"attr",captionData:"alt",captionPosition:"bottom",captionDelay:0});
+`}function c(o){return o.map(n).join("")}const r=c(i);e.insertAdjacentHTML("afterbegin",r);new a(".gallery-link",{captions:!0,captionSelector:"img",captionType:"attr",captionData:"alt",captionPosition:"bottom",captionDelay:250});
 //# sourceMappingURL=1-gallery.js.map
