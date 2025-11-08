@@ -1,0 +1,22 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+  row-gap: 24px;
+  column-gap: 24px;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1128px;
+  list-style-type: none;
+}
+.gallery-item {
+  flex-basis: calc((100% - 48px) / 3);
+  transition: transform ease-in-out 250ms;
+}
+.gallery-item:hover,
+.gallery-item:focus {
+  transform: scale(1.05);
+}
+.sl-wrapper {
+    background-color: rgba(46, 47, 66, 0.8);
+}
