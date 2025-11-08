@@ -91,5 +91,5 @@ new SimpleLightbox('.gallery-link', {
   captionType: 'attr',
   captionData: 'alt',
   captionPosition: 'bottom',
-  captionDelay: 0,
+  captionDelay: 250,
 });
