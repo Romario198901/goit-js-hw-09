@@ -18,5 +18,23 @@
   transform: scale(1.05);
 }
 .sl-wrapper {
-    background-color: rgba(46, 47, 66, 0.8);
+  background-color: rgba(46, 47, 66, 0.8);
+}
+body .sl-wrapper .sl-counter {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+body .sl-wrapper .sl-close {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+}
+body .sl-wrapper .sl-navigation button {
+  width: 24px;
+  height: 24px;
+  color: #fff;
 }

@@ -72,6 +72,7 @@ function createImageTemplate({ preview, original, description }) {
       class="gallery-image"
       src="${preview}"
       alt="${description}"
+      title="${description}"
     />
   </a>
 </li>
@@ -86,10 +87,7 @@ gallery.insertAdjacentHTML('afterbegin', markup);
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 new SimpleLightbox('.gallery-link', {
-  captions: true,
-  captionSelector: 'img',
-  captionType: 'attr',
-  captionData: 'alt',
+  captionData: 'title',
   captionPosition: 'bottom',
   captionDelay: 250,
 });
